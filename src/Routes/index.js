@@ -1,11 +1,11 @@
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { createDrawerNavigator } from '@react-navigation/drawer';
 
 import { StyleSheet, View } from "react-native";
 
 import { Carrinho } from "../pages/Carrinho";
 import { Home } from "../pages/Home";
 
-const Stack = createNativeStackNavigator();
+const Stack = createDrawerNavigator();
 
 export function Route() {
 
